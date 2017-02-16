@@ -1,0 +1,24 @@
+{
+  "name": "MyNewProject",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-exponent"
+  },
+  "dependencies": {
+    "@exponent/ex-navigation": "~2.9.1",
+    "@exponent/samples": "~1.0.2",
+    "@exponent/vector-icons": "~4.0.0",
+    "exponent": "^14.0.0",
+    "react": "~15.4.0",
+    "react-native": "https://github.com/exponent/react-native/archive/sdk-14.0.0.tar.gz"
+  },
+  "devDependencies": {
+    "jest-exponent": "~0.2.1"
+  }
+}
